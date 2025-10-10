@@ -161,6 +161,7 @@ color: rgba(25, 24, 37, 0.5);
     width: 350px;
     height: 400px;
     border-radius: 30px;
+    box-shadow: 20px 20px 50px 15px grey;
 }
 
 .sh2{
@@ -218,9 +219,9 @@ flex-grow: 0;
 }
 
 .destination-item{
-    border-radius: 30px;
+    border-radius: 35px;
     height: 575px;
-    border: 1px solid rgba(25, 24, 37, 0.5);
+    box-shadow: 20px 20px 50px 15px grey;
 }
 
 .item-info{
