@@ -1,0 +1,378 @@
+* {
+    font-family: circular;
+}
+
+@font-face {
+    font-family: circular;
+    src: url(./Font/circular-std-medium-500.ttf);
+}
+
+/* -------------------------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    background: #fff;
+}
+
+.hero-left {
+    position: relative;
+    width: 45%;
+}
+
+.hero-left img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 40px;
+    left: 60%;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.sub-title {
+    color: #ff4da6;
+    letter-spacing: 2px;
+}
+
+.hero-right h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.hero-right p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    color: #ff4d00;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+/* -------------------------------------------------------- */
+
+/* --- Feature Section --- */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 100px 80px;
+    background: #fff;
+}
+
+.features-left {
+    flex: 1;
+}
+
+.features-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title {
+    color: #e65ea2;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.features-left h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 25px;
+}
+
+.features-left p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* --- Feature List --- */
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+.feature-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Icon box --- */
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.icon img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* --- Màu riêng từng icon --- */
+.feature-item.orange .icon {
+    background: #f97352;
+}
+
+.feature-item.yellow .icon {
+    background: #f9cf52;
+}
+
+.feature-item.pink .icon {
+    background: #e76db2;
+}
+
+.feature-item h4 {
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.feature-item p {
+    color: #777;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* --- Ảnh bên phải --- */
+.img-container img.main-img {
+    width: 100%;
+    max-width: 450px;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* --- Subscribe Section --- */
+.subscribe-section {
+    background: #fff;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box {
+    background: #fffaf2;
+    /* màu be */
+    text-align: center;
+    padding: 80px 60px;
+    border-radius: 30px;
+    /* bo tròn góc */
+    width: 85%;
+    max-width: 1000px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+    /* tạo độ nổi nhẹ */
+}
+
+.sub-title {
+    color: #e65ea2;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.subscribe-box h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+/* --- Form --- */
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.input-box img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* --- Button --- */
+.subscribe-form button {
+    background: #5c4efc;
+    color: white;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+    opacity: 0.9;
+}
+
+/* --------------------------------------------------------------- */
+
+/* --- Footer Section --- */
+.footer-section {
+    background: #fff;
+    padding: 100px 0 60px;
+    border-top: 1px solid #eee;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+/* --- Cột chung --- */
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* --- Logo --- */
+.footer-logo img {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* --- Văn bản mô tả --- */
+.footer-col p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* --- Tiêu đề cột --- */
+.footer-col h3 {
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* --- Danh sách link --- */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #5c4efc;
+}
+
+/* --- Icon mạng xã hội --- */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
