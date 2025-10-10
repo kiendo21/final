@@ -31,7 +31,7 @@ body {
 
 .hero-left img {
     width: 100%;
-    max-width: 450px;
+    max-width: 600px;
 }
 
 .discount-badge {
@@ -178,7 +178,7 @@ body {
     background: #f9cf52;
 }
 
-.feature-item.pink .icon {
+.feature-item.pink1 .icon {
     background: #e76db2;
 }
 
@@ -197,7 +197,7 @@ body {
 /* --- Ảnh bên phải --- */
 .img-container img.main-img {
     width: 100%;
-    max-width: 450px;
+    max-width: 600px;
     object-fit: cover;
 }
 
