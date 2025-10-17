@@ -176,6 +176,12 @@ color: rgba(25, 24, 37, 0.5);
     color: rgba(25, 24, 37, 0.5);
 }
 
+#service-2-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
 #destination-top{
     display: flex;
     justify-content: space-between;
